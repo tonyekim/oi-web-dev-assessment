@@ -28,7 +28,7 @@ Github repository: https://github.com/ask4o2/oi-web-dev-assessment.git
 
 API Endpoint:
 
-Task 2: Implement a shopping cart functionality
+# Task 2: Implement a shopping cart functionality
 
 ` Create a separate React component for the shopping cart.`
 
@@ -38,13 +38,13 @@ Task 2: Implement a shopping cart functionality
 
 `Display a "Checkout" button that calculates the total price of all the products in the cart and displays a confirmation message.`
 
-Task 3: Implement responsive design
+# Task 3: Implement responsive design
 
 `Make sure the application is responsive and displays correctly on different screen sizes, including desktop, tablet, and mobile.`
 
 `Implement mobile-first design principles and use appropriate CSS techniques to create a visually appealing and user-friendly interface on all devices.`
 
-Bonus Task: Add Unit Tests
+# Bonus Task: Add Unit Tests
 
 `Write unit tests for any one component using a popular testing library such as Jest or React Testing Library.`
 
