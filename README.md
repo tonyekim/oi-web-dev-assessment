@@ -2,17 +2,18 @@
 
 `React-based assessment`
 
-Welcome to the React Frontend Web Development Assessment, This assessment is designed to evaluate your skills and knowledge in building user interfaces using React, a popular JavaScript library for building user interfaces.
+Welcome to the React Frontend Web Development Assessment. This assessment is designed to evaluate your skills and knowledge in building user interfaces using React, a popular JavaScript library for building user interfaces.
 
 # Instructions
 
-1. You have 3 days to complete this assessment
-2. Fork the provided GitHub repository (link provided below) to start the assessment.
-3. Complete the tasks listed below within the time limit.
-4. Push your code to the forked repository.
-5. Submit the link to your forked repository on the google form provided below for review.
+1. You have four days to complete this assessment.
+2. Submission deadline is 23:59 GMT, Monday April 10, 2023.
+3. Fork the provided GitHub repository (link provided below) to start the assessment.
+4. Complete the tasks listed below within the time limit.
+5. Push your code to the forked repository.
+6. Submit the link to your forked repository on the google form provided below for review.
 
-Github repository: https://github.com/OaksIntelligence/oi-web-dev-assessment
+Github repository: https://github.com/OaksIntelligence/oi-web-dev-assessment-sub
 
 Google form link: https://forms.gle/4jZMkch5H6V7aEEq5
 
