@@ -1,4 +1,4 @@
-# GidiaOaks-Web-Dev-Assessment
+# Oaks Intelligence Web Development Assessment
 
 `React based assessment`
 
