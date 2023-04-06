@@ -12,7 +12,7 @@ Welcome to the React Frontend Web Development Assessment, This assessment is des
 4. Push your code to the forked repository.
 5. Submit the link to your forked repository on the google form provided below for review.
 
-Github repository: https://github.com/ask4o2/oi-web-dev-assessment.git
+Github repository: https://github.com/OaksIntelligence/oi-web-dev-assessment
 
 Google form link:
 
@@ -76,4 +76,4 @@ TASKS
 
 `Add a feature that allows users to schedule blog posts for publication at a later date.`
 
-Note: Make sure to follow best practices for code organization, readability, and maintainability. If you have any questions or need clarification, feel free to ask. Happy coding!
+Note: Make sure to follow best practices for code organization, readability, and maintainability. Happy coding!
