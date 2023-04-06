@@ -20,7 +20,7 @@ Build a ciustom CMS for an blog application
 
 # Description
 
-You have been tasked with building a custom CMS for an blog website. The CMS should allow users to create, edit, and publish blog posts, as well as manage categories, and review comments. you are to build the frontend of the ecommerce website using React, build the backend CMS and integrate it with the frontend using a suitable API.
+You have been tasked with building a custom CMS for a blog website. The CMS should allow users to create, edit, and publish blog posts, as well as manage categories, and review comments. you are to build the frontend of the ecommerce website using React, build the backend CMS and integrate it with the frontend using a suitable API.
 
 TASKS
 
@@ -62,18 +62,14 @@ TASKS
 
 # 6. Integration with Frontend
 
-`Integrate the CMS with the existing frontend of the blog website using a suitable API library (e.g. GraphQL, REST API).`
+`Integrate the backend with the existing frontend of the blog website `
 
-`Fetch the blog post data from the CMS API endpoint and display it on the frontend using a suitable data visualization library (e.g. React Router, Redux).`
+`Fetch the blog post data from the API endpoint and display it on the frontend using a suitable data visualization library (e.g. React Router, Redux).`
 
-`Implement basic pagination with a maximum of 10 blog posts per page.`
+`Implement basic pagination with a maximum of 8 blog posts per page.`
 
 # 7. Bonus Task: Add Advanced Features
 
 ` Add a search feature that allows users to search for blog posts by title or content.`
-
-`Implement a WYSIWYG editor for the blog post form that allows users to format text and add images or videos.`
-
-`Add a feature that allows users to schedule blog posts for publication at a later date.`
 
 Note: Make sure to follow best practices for code organization, readability, and maintainability. Happy coding!
