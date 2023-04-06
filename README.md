@@ -1,6 +1,6 @@
 # Oaks Intelligence Web Development Assessment
 
-`React based assessment`
+`React-based assessment`
 
 Welcome to the React Frontend Web Development Assessment, This assessment is designed to evaluate your skills and knowledge in building user interfaces using React, a popular JavaScript library for building user interfaces.
 
