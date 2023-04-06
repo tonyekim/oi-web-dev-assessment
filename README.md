@@ -6,46 +6,74 @@ Welcome to the React Frontend Web Development Assessment, This assessment is des
 
 # instructions
 
-1. You have 2 days to complete this assessment
+1. You have 3 days to complete this assessment
 2. Fork the provided GitHub repository (link provided below) to start the assessment.
 3. Complete the tasks listed below within the time limit.
 4. Push your code to the forked repository.
-5. Submit the link to your forked repository for review.
+5. Submit the link to your forked repository on the google form provided below for review.
 
 Github repository: https://github.com/ask4o2/oi-web-dev-assessment.git
 
-`Tasks`
+Google form link:
 
-# Task 1: Create a React component that displays a list of products
+Build a ciustom CMS for an blog application
 
-` Fetch a list of products from the provided API endpoint (endpoint URL provided below).`
+# Description
 
-` Display the list of products in a responsive grid layout, with each product card showing the product name, image, and price.`
+You have been tasked with building a custom CMS for an blog website. The CMS should allow users to create, edit, and publish blog posts, as well as manage categories, and review comments. you are to build the frontend of the ecommerce website using React, build the backend CMS and integrate it with the frontend using a suitable API.
 
-` Implement basic pagination with a maximum of 8 products per page.`
+TASKS
 
-`  Add a "Add to Cart" button on each product card that allows users to add the product to their cart.`
+# 1. Database Design and Setup
 
-API Endpoint:
+`Design the database schema for the CMS, including posts, categories, tags, and comments.`
 
-# Task 2: Implement a shopping cart functionality
+`Implement the database using a suitable database management system (e.g. mongoDB).`
 
-` Create a separate React component for the shopping cart.`
+# 2. Backend API Development
 
-`Display the list of products added to the cart, along with the total price.`
+` Build a REST API for the CMS using a suitable backend framework (e.g. Node.js).`
 
-`Allow users to increase or decrease the quantity of products in the cart, or remove products from the cart.`
+`Implement CRUD (Create, Read, Update, Delete) APIs for posts, categories, tags, and comments.`
 
-`Display a "Checkout" button that calculates the total price of all the products in the cart and displays a confirmation message.`
+`Implement user authentication and authorization to ensure that only authorized users can create and modify content.`
 
-# Task 3: Implement responsive design
+# 3. Admin Dashboard Development
 
-`Make sure the application is responsive and displays correctly on different screen sizes, including desktop, tablet, and mobile.`
+`Build an admin dashboard using a suitable frontend framework (REACT).`
 
-`Implement mobile-first design principles and use appropriate CSS techniques to create a visually appealing and user-friendly interface on all devices.`
+`Implement a form that allows users to create or edit posts, including fields for name, content, category, and tags.`
 
-# Bonus Task: Add Unit Tests
+` Implement a table that displays all posts and allows users to edit or delete a post.`
 
-`Write unit tests for any one component using a popular testing library such as Jest or React Testing Library.`
+# 4. Category and Tag Management
 
-NOTE: Feel free to use any additional libraries or tools you think are necessary to complete the tasks.
+`Implement a form that allows users to create or edit categories and tags.`
+
+`Implement a table that displays all categories and tags and allows users to edit or delete them.`
+
+`Add a dropdown menu to the add product form that allows users to select a category and multiple tags for each post.`
+
+# 5. Comment Management
+
+`Implement CRUD APIs for comments on posts.`
+
+`Implement a section in the admin dashboard that displays all comments and allows the admin to approve or delete comments.`
+
+# 6. Integration with Frontend
+
+`Integrate the CMS with the existing frontend of the blog website using a suitable API library (e.g. GraphQL, REST API).`
+
+`Fetch the blog post data from the CMS API endpoint and display it on the frontend using a suitable data visualization library (e.g. React Router, Redux).`
+
+`Implement basic pagination with a maximum of 10 blog posts per page.`
+
+# 7. Bonus Task: Add Advanced Features
+
+` Add a search feature that allows users to search for blog posts by title or content.`
+
+`Implement a WYSIWYG editor for the blog post form that allows users to format text and add images or videos.`
+
+`Add a feature that allows users to schedule blog posts for publication at a later date.`
+
+Note: Make sure to follow best practices for code organization, readability, and maintainability. If you have any questions or need clarification, feel free to ask. Happy coding!
