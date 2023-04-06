@@ -2,7 +2,7 @@
 
 `React-based assessment`
 
-Welcome to the React Frontend Web Development Assessment. This assessment is designed to evaluate your skills and knowledge in building user interfaces using React, a popular JavaScript library for building user interfaces.
+Welcome to the React Frontend Web Development Assessment. This assessment is designed to evaluate your skills and knowledge related to building online systems using React, a popular JavaScript library for building user interfaces.
 
 # Build a Custom CMS for a Blog Application
 
