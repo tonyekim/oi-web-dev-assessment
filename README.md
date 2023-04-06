@@ -4,7 +4,7 @@
 
 Welcome to the React Frontend Web Development Assessment, This assessment is designed to evaluate your skills and knowledge in building user interfaces using React, a popular JavaScript library for building user interfaces.
 
-# instructions
+# Instructions
 
 1. You have 3 days to complete this assessment
 2. Fork the provided GitHub repository (link provided below) to start the assessment.
