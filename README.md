@@ -4,19 +4,6 @@
 
 Welcome to the React Frontend Web Development Assessment. This assessment is designed to evaluate your skills and knowledge in building user interfaces using React, a popular JavaScript library for building user interfaces.
 
-# Instructions
-
-1. You have four days to complete this assessment.
-2. Submission deadline is 23:59 GMT, Monday April 10, 2023.
-3. Fork the provided GitHub repository (link provided below) to start the assessment.
-4. Complete the tasks listed below within the time limit.
-5. Push your code to the forked repository.
-6. Submit the link to your forked repository on the google form provided below for review.
-
-Github repository: https://github.com/OaksIntelligence/oi-web-dev-assessment-sub
-
-Google form link: https://forms.gle/4jZMkch5H6V7aEEq5
-
 # Build a Custom CMS for a Blog Application
 
 ## Description
@@ -72,5 +59,18 @@ TASKS
 ## 7. Bonus Task: Add Advanced Features
 
 ` Add a search feature that allows users to search for blog posts by title or content.`
+
+# Instructions
+
+1. You have four days to complete this assessment.
+2. Submission deadline is 23:59 GMT, Monday April 10, 2023.
+3. Fork the provided GitHub repository (link provided below) to start the assessment.
+4. Complete the tasks listed below within the time limit.
+5. Push your code to the forked repository.
+6. Submit the link to your forked repository on the google form provided below for review.
+
+Github repository: https://github.com/OaksIntelligence/oi-web-dev-assessment-sub
+
+Google form link: https://forms.gle/4jZMkch5H6V7aEEq5
 
 Note: Make sure to follow best practices for code organization, readability, and maintainability. Happy coding!
