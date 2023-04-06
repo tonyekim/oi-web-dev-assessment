@@ -14,7 +14,7 @@ Welcome to the React Frontend Web Development Assessment, This assessment is des
 
 Github repository: https://github.com/OaksIntelligence/oi-web-dev-assessment
 
-Google form link:
+Google form link: https://forms.gle/4jZMkch5H6V7aEEq5
 
 Build a ciustom CMS for an blog application
 
