@@ -1,19 +1,33 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import LoginValidation from "./LoginValidation";
+import validation from "./LoginValidation";
+import axios from "axios";
+import { useNavigate } from 'react-router-dom';
+
 
 const Login = () => {
   const [values, setValues] = useState({
     email: "",
     password: "",
   });
-
+  const navigate = useNavigate()
   const [error, setError] = useState({});
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const errors = LoginValidation(values);
-    setError(errors);
+    const err = validation(values); setError(err);         
+    if( err.email === "" && err.password === "") {
+      axios.post('http://localhost:8081/login', values)
+      .then(res => {
+        if (res.data === "Success") {
+          navigate('/home')
+        } else {
+          alert("No record in database!!")
+        }
+      })
+      .catch(err => console.log(err))
+      
+    }
   };
 
   const handleInput = (event) => {
