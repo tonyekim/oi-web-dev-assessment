@@ -58,7 +58,7 @@ function UpdatePost() {
               onChange={(e) => setCategory(e.target.value)}
             />
           </div>
-          <button className="btn btn-success">Update</button>
+          <button className="btn btn-success">Update Post</button>
         </form>
       </div>
     </div>

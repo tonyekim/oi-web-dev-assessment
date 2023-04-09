@@ -17,10 +17,6 @@ const Sidebar = () => {
           <i className="bi bi-house fs-4 me-3"></i>
           <span className="fs-5">Home</span>
         </a>
-        <a className="list-group-item  hover:bg-blue-700 hover:text-white">
-          <i class="bi bi-bank fs-4 me-3 hover:bg-blue-700 hover:text-white "></i>
-          <span className="fs-5"></span>
-        </a>
       </div>
     </div>
   );

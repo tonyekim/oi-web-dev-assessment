@@ -34,7 +34,7 @@ function CreateStudent() {
             />
           </div>
           <div className="mb-2">
-            <label htmlFor="">Content</label>{" "}
+            <label htmlFor="">Content</label>
             <textarea
               type="text"
               placeholder="Enter Content"
@@ -43,7 +43,7 @@ function CreateStudent() {
             />
           </div>
           <div className="mb-2">
-            <label htmlFor="">Category</label>{" "}
+            <label htmlFor="">Category</label>
             <textarea
               type="text"
               placeholder="Enter Category"
@@ -51,7 +51,7 @@ function CreateStudent() {
               onChange={(e) => setCategory(e.target.value)}
             />
           </div>
-          <button type="submit" className="btn btn-success">Create Post</button>{" "}
+          <button type="submit" className="btn btn-success">Create Post</button>
         </form>
       </div>
     </div>
