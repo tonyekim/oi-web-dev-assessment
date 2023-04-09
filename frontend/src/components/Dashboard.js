@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 import axios from "axios";
 import {NavLink}from "react-router-dom";
+import TablePagination from "./TablePagination";
 
 function Dashboard() {
   const [post, setPost] = useState([]);
+  console.log(post);
 
   useEffect(() => {
     axios
@@ -29,8 +31,13 @@ function Dashboard() {
       <NavBar T />
       <div className="d-flex vh-100 bg-primary justify-content-center align-items-center">
         <div className="w-75 bg-white rounded p-3">
-          <NavLink to='/create' className="btn btn-success">Create Post +</NavLink>
-          <table className="table">
+          <NavLink to='/create' className="btn btn-success ml-3">Create Post +</NavLink>
+
+
+          <div>
+            <TablePagination />
+          </div>
+          {/* <table className="table">
             <thead>
               <tr>
                 <th>Name</th>
@@ -56,7 +63,7 @@ function Dashboard() {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table> */}
         </div>
       </div>
     </div>

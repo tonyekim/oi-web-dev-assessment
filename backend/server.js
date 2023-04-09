@@ -61,19 +61,36 @@ app.post("/create", (req, res) => {
   });
 });
 
+
 // UPDATE
 app.put("/update/:id", (req, res) => {
-  const sql =
-    "update user set `name` = ?, `content` = ?,  `category` = ? where id = ?";
-
-  const values = [req.body.name, req.body.content, req.body.category];
-
-  const id = req.params.id;
-  db.query(sql, [...values, id], (err, data) => {
-    if (err) return res.json("Error");
-    return res.json(data);
+    const id = parseInt(req.params.id);
+  
+    if (isNaN(id)) {
+      // ID is not a number, so insert a new record
+      const sql = "INSERT INTO user (`name`, `content`, `category`) VALUES (?, ?, ?)";
+  
+      const values = [req.body.name, req.body.content, req.body.category];
+  
+      db.query(sql, values, (err, data) => {
+        if (err) return res.status(500).json({ error: err.message });
+        return res.json(data);
+      });
+    } else {
+      // ID is a number, so update the existing record
+      const sql =
+        "UPDATE user SET `name` = ?, `content` = ?, `category` = ? WHERE id = ?";
+  
+      const values = [req.body.name, req.body.content, req.body.category, id];
+  
+      db.query(sql, values, (err, data) => {
+        if (err) return res.status(500).json({ error: err.message });
+        return res.json(data);
+      });
+    }
   });
-});
+  
+  
 
 // DELETE
 app.delete("/USER/:id", (req, res) => {
