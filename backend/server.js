@@ -41,7 +41,7 @@ app.post("/login", (req, res) => {
   });
 });
 
-// LOGIN ROUTE FOR ADMIN
+//LOGIN ROUTE FOR ADMIN
 app.post("/admin-login", (req, res) => {
   const sql =
     "SELECT * FROM login WHERE `email` = ? AND `password` = ? AND `role` = 'admin'";
