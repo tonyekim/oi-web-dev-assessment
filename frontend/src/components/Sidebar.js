@@ -9,14 +9,14 @@ const Sidebar = () => {
       </div>
       <hr className="text-dark" />
       <div className="list-group list-group-flush">
-        <a className="list-group-item hover:bg-blue-700 hover:text-white">
+        <span className="list-group-item hover:bg-blue-700 hover:text-white">
           <i class="bi bi-speedometer2 fs-4 me-3"></i>
           <span className="fs-5">Dashboard</span>
-        </a>
-        <a className="list-group-item  hover:bg-blue-700 hover:text-white">
+        </span>
+        <span className="list-group-item  hover:bg-blue-700 hover:text-white">
           <i className="bi bi-house fs-4 me-3"></i>
           <span className="fs-5">Home</span>
-        </a>
+        </span>
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import NavBar from "./NavBar";
-import axios from "axios";
 import { NavLink } from "react-router-dom";
 import TablePagination from "./TablePagination";
 

@@ -170,6 +170,29 @@ function Table({ columns, data }) {
 
 
 function TablePagination() {
+
+  const [data, setPost] = useState([]);
+  //   console.log(post);
+  
+    useEffect(() => {
+      axios
+        .get("http://localhost:8081/")
+        .then((res) => setPost(res.data))
+        .catch((err) => console.log(err));
+    }, []);
+  
+    const handleDelete = async(id) => {
+      try {
+        await axios.delete("http://localhost:8081/user/"+id)
+        window.location.reload()
+        
+      } catch (err) {
+        console.log(err);
+        
+      }
+    }
+  
+
     const columns = React.useMemo(
         () => [
           {
@@ -200,41 +223,12 @@ function TablePagination() {
             ),
           },
         ],
-        []
+        [data.id]
       );
       
 
-  // const data = React.useMemo(() => makeData(100), []);
-//   const [data, setData] = React.useState(makeData(100));
-
-  // React.useEffect(() => {
-  //   setData(makeData(100));
-  // }, []);
-//   const handleReset = () => {
-//     setData(makeData(100));
-//   };
 
 
-const [data, setPost] = useState([]);
-//   console.log(post);
-
-  useEffect(() => {
-    axios
-      .get("http://localhost:8081/")
-      .then((res) => setPost(res.data))
-      .catch((err) => console.log(err));
-  }, []);
-
-  const handleDelete = async(id) => {
-    try {
-      await axios.delete("http://localhost:8081/user/"+id)
-      window.location.reload()
-      
-    } catch (err) {
-      console.log(err);
-      
-    }
-  }
 
   return (
     <Styles>
