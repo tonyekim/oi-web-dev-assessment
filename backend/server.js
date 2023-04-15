@@ -1,18 +1,25 @@
 import express from "express";
 import mysql from "mysql";
 import cors from "cors";
+import path from "path";
+
+
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-// serving the frontend
-app.use(express.static(path.join(__dirname, "./frontend/build")));
+const dirname = path.dirname(new URL(import.meta.url).pathname);
+
+app.use(express.static(path.join(dirname, "frontend", "build")));
+
 app.get("*", function (_, res) {
   res.sendFile(
-    path.join(__dirname, "./frontend/build/index.html"),
+    path.join(dirname, "frontend", "build", "index.html"),
     function (err) {
-      res.status(500).send(err);
+      if (err) {
+        res.status(500).send(err);
+      }
     }
   );
 });
