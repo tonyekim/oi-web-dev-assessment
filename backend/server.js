@@ -6,6 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// serving the frontend
 app.use(express.static(path.join(__dirname, "./frontend/build")));
 app.get("*", function (_, res) {
   res.sendFile(
